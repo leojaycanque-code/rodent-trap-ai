@@ -3,4 +3,7 @@ ultralytics
 opencv-python-headless
 supabase
 gunicorn
-requests
+# Forces CPU version of Torch to save 300MB of RAM
+--find-links https://download.pytorch.org/whl/cpu/torch_stable.html
+torch
+torchvision
