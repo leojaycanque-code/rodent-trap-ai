@@ -1,0 +1,14 @@
+# Python virtual environment
+venv/
+.env
+__pycache__/
+*.pyc
+
+# Local image storage
+images/
+*.jpg
+*.png
+
+# OS metadata
+.DS_Store
+Thumbs.db
